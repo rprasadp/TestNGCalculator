@@ -40,7 +40,7 @@ public class CalcTest
 	    
 	    FirefoxOptions options = new FirefoxOptions();
         
-       // options.addArguments("--headless");
+        options.addArguments("--headless");
 	    options.setCapability("requireWindowFocus", true);
         //String mygecko=System.getenv("HOME") + "/Downloads/geckodriver";
         String mygecko= prop.getProperty("webdriver_path") + "geckodriver";
