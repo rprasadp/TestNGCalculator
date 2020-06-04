@@ -1,4 +1,4 @@
-package com.Rajgcp.TestApp;
+package com.edureka.TestApp;
 
 import java.io.FileInputStream;
 import java.util.Properties;
